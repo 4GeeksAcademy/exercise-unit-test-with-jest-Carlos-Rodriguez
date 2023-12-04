@@ -1,3 +1,9 @@
+
+const sum = (a,b) => {
+    return a + b
+}
+console.log(sum(7,3))
+
 const fromEuroToDollar = function (valueInEuro) {
 
     let valueInDollar = valueInEuro * 1.07;
@@ -25,4 +31,4 @@ let oneEuroIs = {
     "GBP": 0.87, // british pound
 }
 
-module.exports = { fromEuroToDollar, fromDollarToYen, fromYentoPound }
+module.exports = { sum, fromEuroToDollar, fromDollarToYen, fromYentoPound }
